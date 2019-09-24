@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.Container{
+  background:linear-gradient(to right, #91CCDE, #49C5EA);
+  display: inline-block;
+  width:3rem;
+  border-radius:5px;
+  text-align:center;
+}
+
+
+.addBtn{
+  	color:white;
+  	vertical-align: middle;
+  	margin:0 auto;
+}
+.removeBtn{
+	color:white;
+  	vertical-align: middle;
+	margin:0 auto;
+}
+.updateBtn{
+	color:white;
+  	vertical-align: middle;
+	margin:0 auto;
+}
+
+.deleteIcon{
+  margin-left: auto;
+  color:#de4343;
+}
+.commentIcon{
+	margin-left: auto;
+  	color:green;
+}
+
+.inputBox{
+  background:white;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  margin:10px;
+  padding:5px;
+}
+.inputBox input{
+  border-style: none;
+  font-size:0.9rem;
+}
+button{
+  border-style:groove;
+}
+
+@font-face {
+    font-family: '123RF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/123RF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background-color: #F6F6F8;
+  font-family: '123RF';
+}
+
+
+.shadow{
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
