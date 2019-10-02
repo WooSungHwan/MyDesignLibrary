@@ -10,6 +10,13 @@
 <!-- selectBox2 -->
 <link rel="stylesheet" href="/css/stylesheet.css" />
 <link rel="stylesheet" href="/css/modal2.css" />
+
+<!-- 부트스트랩 -->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script src="../js/jquery.selectlist.js"></script>
 </head>
 <body>
 	<div>
@@ -26,6 +33,7 @@
 	    <span class="Container">
 	      <i class="updateBtn fas fa-pencil-alt" aria-hidden="true"></i>
 	    </span>
+	    <button class="btn btn-warning btn-circle"><i class='fa fa-times'></i></button> <!-- 부트스트랩 -->
 	</div>
 	<div id="icons" class="inputBox shadow">
 		<span class="deleteIcon">
@@ -42,7 +50,6 @@
 			<option>값3</option>
 		</select>
 		
-		
 		<select id="selectBox2" class="selectBox2">
 		  <option value="0">블루비</option>
 		  <option value="1">네이버</option>
@@ -50,8 +57,7 @@
 		  <option value="3">구글</option>
 		  <option value="4">야후</option>
 		</select>
-		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="../js/jquery.selectlist.js"></script>
+		
 		<script type="text/javascript">
 			$(function(){
 				$('#selectBox2').selectlist({ //이걸 호출해줘야함.
@@ -62,6 +68,8 @@
 			})
 		</script>
 	</div>
+	
+	
 	
 	<div id="modals" class="inputBox shadow">
 		<!-- Trigger/Open The Modal -->
@@ -119,5 +127,6 @@
 	</div>
 	    
 	</div>
+	
 </body>
 </html>
